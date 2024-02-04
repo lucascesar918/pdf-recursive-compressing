@@ -7,7 +7,8 @@ from pathlib import Path
 
 
 if len(sys.argv) < 2:
-    sys.stderr.write(f"Not enough parameters\nUsage: {sys.argv[0]} <path>")
+    sys.stderr.write(f"Not enough parameters\nUsage: {sys.argv[0]} <path>\n")
+    sys.exit(2)
 
 dirpath = sys.argv[1]
 
