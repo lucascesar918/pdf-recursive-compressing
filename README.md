@@ -6,3 +6,4 @@ CLI tool to recursively compress PDF files in Unix systems.
 
 - [ ] Initial and final total sizes are not being measured the right way
 - [ ] Helpful --help and CLI arguments are pending to be done
+- [ ] ps2pdf probably not being used in an eficient way
